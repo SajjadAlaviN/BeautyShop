@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "../css/fonts.css";
+
+@theme {
+  --color-primary: #7a8b63;
+  --color-primary-dark: #5f6d4d;
+
+  --color-secondary: #e8dccb;
+  --color-secondary-dark: #d5c5af;
+
+  --color-accent: #c89f72;
+
+  --color-background: #faf8f4;
+  --color-surface: #ffffff;
+
+  --color-text: #292820;
+  --color-text-muted: #777468;
+
+  --color-border: #e8e3da;
+
+  --color-success: #6f9b72;
+  --color-danger: #c96f6f;
+}
+
+* {
+  font-family: vazirmatn;
+}
