@@ -1,6 +1,6 @@
-import CartProvider from "./contexts/CartProvider";
-import LoginProvider from "./contexts/LoginProvider";
-import CartContProvider from "./contexts/CartContProvider";
+import CartProvider from "./Ncontexts/CartProvider";
+import LoginProvider from "./Ncontexts/LoginProvider";
+import CartContProvider from "./Ncontexts/CartContProvider";
 import Routes from "./Routes";
 import { RouterProvider } from "react-router";
 

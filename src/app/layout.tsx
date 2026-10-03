@@ -1,5 +1,5 @@
 "use client";
-import LoginProvider from "../contexts/LoginProvider";
+import LoginProvider from "../Ncontexts/LoginProvider";
 import CartContProvider from "../Ncontexts/CartContProvider";
 import CartProvider from "../Ncontexts/CartProvider";
 import Header from "./common/Header/Header";

@@ -1,9 +1,9 @@
 "use client"
 import { useContext } from "react";
 import { FaRegStar } from "react-icons/fa";
-import AuthContext from "../../../contexts/CartContext";
+import AuthContext from "../../../Ncontexts/CartContext";
 import clsx from "clsx";
-import CartContContext from "../../../contexts/CartContContext";
+import CartContContext from "../../../Ncontexts/CartContContext";
 
 function Product(props) {
   const { AddToCart } = useContext(AuthContext);

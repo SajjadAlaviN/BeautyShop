@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import products from "../../data/Products";
 import Product from "./components/Product";
 import { useContext, useEffect } from "react";
-import LoginContex from "../../contexts/LoginContext";
+import LoginContex from "../../Ncontexts/LoginContext";
 import { useNavigate } from "react-router";
 
 function Products() {

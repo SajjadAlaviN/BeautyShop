@@ -3,8 +3,8 @@ import { IoLogOutOutline } from "react-icons/io5";
 import { TiShoppingCart } from "react-icons/ti";
 import Cart from "./components/Carts/Cart";
 import { useContext} from "react";
-import LoginContex from "../../../contexts/LoginContext";
-import CartContContext from "../../../contexts/CartContContext";
+import LoginContex from "../../../Ncontexts/LoginContext";
+import CartContContext from "../../../Ncontexts/CartContContext";
 
 function Header() {
   const { cartContainer, setCartContainer } = useContext(CartContContext);

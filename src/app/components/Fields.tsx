@@ -10,8 +10,10 @@ function Fields() {
   const { login, setLogin, fields, dispatch } = useContext(LoginContex);
   const router = useRouter();
   const [showPass, setShowPass] = useState(false);
+    console.log(login)
 
   useEffect(() => {
+      console.log(login)
     if (!login) {
       router.replace("/home");
     } else {

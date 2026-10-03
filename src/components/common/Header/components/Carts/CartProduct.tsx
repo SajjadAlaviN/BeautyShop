@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { RiDeleteBin5Line } from "react-icons/ri";
-import AuthContext from "../../../../../contexts/CartContext";
+import AuthContext from "../../../../../Ncontexts/CartContext";
 import type { Details } from "../../../../../data/Types";
 
 function CartProduct(props: Details) {

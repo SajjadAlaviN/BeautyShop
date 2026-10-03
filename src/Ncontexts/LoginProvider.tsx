@@ -42,6 +42,8 @@ function LoginProvider({ children }: { children: React.ReactNode }) {
     setLogin(JSON.parse(localStorage.getItem("login") || "true"));
   }, []);
 
+  console.log(login);
+
   return (
     <LoginContex.Provider value={{ login, setLogin, fields, dispatch }}>
       {children}

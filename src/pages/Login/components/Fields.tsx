@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import LoginContex from "../../../contexts/LoginContext";
+import LoginContex from "../../../Ncontexts/LoginContext";
 import { useNavigate } from "react-router";
 import value from "../../../data/constanse";
 const { USER_NAME, PASSWORD } = value;

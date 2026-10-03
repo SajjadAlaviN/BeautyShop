@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import CartProduct from "../Carts/CartProduct";
-import CartContext from "../../../../../contexts/CartContext";
+import CartContext from "../../../../../Ncontexts/CartContext";
 import clsx from "clsx";
-import CartContContext from "../../../../../contexts/CartContContext";
+import CartContContext from "../../../../../Ncontexts/CartContContext";
 
 function Cart() {
   const { cartContainer ,setCartContainer} = useContext(CartContContext)
