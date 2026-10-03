@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState, useReducer } from "react";
 import LoginContex from "./LoginContext";
 
@@ -7,7 +9,11 @@ interface Action {
 }
 
 function getItem(): boolean {
-  return localStorage.getItem("login") === "true";
+  if (typeof window !== "undefined") {
+    return window.localStorage.getItem("login") === "true";
+  }else {
+    return false
+  }
 }
 function LoginProvider({ children }: { children: React.ReactNode }) {
   const [fields, dispatch] = useReducer(fieldreducer, {
